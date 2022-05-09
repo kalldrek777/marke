@@ -1,0 +1,72 @@
+  body {
+    background-color: #212121f9;
+  }
+
+  .carousel-inner img {
+    height: 450px;
+  }
+  .carousel {
+  margin-top: 50px;
+  left: 50%;
+  width: 1300px;
+  top: 225px;
+  transform: translate(-50%,-50%);
+}
+
+  .card {
+  height: 90%;
+  margin: 0px;
+  padding: 5px;
+  padding-bottom:140px;
+
+}
+
+  #btn-card{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius:15px;
+    margin-top: 195px;
+    margin-left:0px;
+
+}
+
+  #category_text{
+    position:absolute;
+    padding:2px;
+    margin:10px;
+    margin-left:20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 145px;
+    width:75%;
+    text-align: center;
+    background-color: #182e1e;
+    font-style:italic;
+}
+
+  #card_body{
+    min-height: 200px;
+    max-height: 200px;
+    margin-bottom: 0px;
+    padding-left:5px;
+    padding-right:5px;
+    font-family: 'Courgette-Regular';
+    src: url('/fonts/Courgette-Regular.ttf');
+    font-size:17px;
+
+}
+
+  #card_img{
+    min-height:150px;
+    max-height:150px;
+    width: 100%;
+}
+
+  #title{
+    text-align:center;
+    font-weight:600;
+
+}
+
+
