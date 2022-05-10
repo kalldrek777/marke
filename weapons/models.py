@@ -9,7 +9,7 @@ categorys = [
     ('Одежда', 'Одежда'),
 ]
 
-
+# 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
 class Product(models.Model):
     name = models.CharField(max_length=100, unique=False, verbose_name='Название продукта', null=True)
     text = models.TextField(max_length=135, unique=False, verbose_name='Описание продукта', null=True)
